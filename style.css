@@ -1,0 +1,62 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Figtree:wght@500&display=swap'); */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(45deg, #011e1f, gray);
+}
+.Calculator{
+    border: 5px solid #848a8d;
+    padding: 20px;
+    border-radius: 16px;
+    background:transparent;
+    box-shadow: 0px 3px 15px rgba(red, green, blue, 0.5);
+
+}
+input{
+    width: 320px;
+    border: none; 
+    padding: 24px;
+    margin: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: right;
+    cursor: pointer;
+    background:transparent;
+    box-shadow: 0px 3px 15px rgbs(84, 81, 84, 0.1);
+    color: white;
+}
+input::placeholder{
+    color: white;
+
+}
+button{
+    border:none;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    /* background-color: rgb(15, 224, 224); */
+    background: transparent;
+    border-radius: 30%;
+    color: white;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+}
+.equalBtn{
+    background-color: orange;
+
+}
+.operator{
+    color: greenyellow;
+}
